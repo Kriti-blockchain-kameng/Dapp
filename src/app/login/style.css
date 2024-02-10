@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .bitHealth {
+    background-color: rgb(200, 235, 251);
+    width: 100vw;
+    height: 43.1vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    box-sizing: border-box;
+    padding-left: 45px;
+    padding-top: 35px;
+  }
+  
+  .login-container {
+    position: absolute;
+    top: 56px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .login {
+    width: 360px;
+    height: 720px;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .sbi {
+    width: 180px;
+    height: 180px;
+    background-image: url('./prof.png');
+    background-size: contain;
+    margin-top: 10px;
+  }
+  
+  .login-box {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .login-name {
+    margin-top: 45px;
+    font-size: 30px;
+  }
+  
+  .login-wallet {
+    background-color: rgba(212, 235, 245, 1);
+    width: 280px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: flex;
+    font-size: 17px;
+    font-weight: 500;
+    align-items: center;
+  }
+  
+  .wallet {
+    background-image: url('./save.png');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-left: 15px;
+  }
+  
+  .go {
+    background-image: url('./share-icon-2048x1911-60w04qpe.png');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  
+  .manage {
+    margin-left: 10px;
+  }
+  
+  .go {
+    margin-left: 10px;
+  }
+  
+  .login-account {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  
+  .login-sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+  }
