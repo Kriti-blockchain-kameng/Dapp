@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "types": [
+      "node",
+      "@types/concat-stream"
+    ],
     "target": "es2020",
     "module": "commonjs",
     "esModuleInterop": true,
